@@ -4,8 +4,10 @@ azure:
       tenant: cortexCapital
       client-id: 6e741d01-da33-4d48-b232-1d68994959d0
       client-secret: 3h^Y1[H\4hiy^0o.8DP5cAx/
-      reply-url: http://localhost:8080/login/oauth2/code/azure # should be absolute url.
-      logout-success-url: http://localhost:8080
+      reply-url: http://localhost:8080/home # should be absolute url. 
+      # http://localhost:8080/login/oauth2/code/azure from the other tutorial 
+      # https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-boot-starter-java-app-with-azure-active-directory?view=azure-java-stable
+      logout-success-url: http://localhost:8080/home
       user-flows:
         sign-up-or-sign-in: B2C_1_test_user_flow
         profile-edit: ${your-profile-edit-user-flow}     # optional
