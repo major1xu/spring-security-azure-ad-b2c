@@ -10,5 +10,5 @@ azure:
       logout-success-url: http://localhost:8080/home
       user-flows:
         sign-up-or-sign-in: B2C_1_test_user_flow
-        profile-edit: ${your-profile-edit-user-flow}     # optional
-        password-reset: ${your-password-reset-user-flow} # optional
+        profile-edit: B2C_1_profile_editing     # optional
+        password-reset: B2C_1_Password_Reset # optional
